@@ -10,6 +10,8 @@
   <title>HERA</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <script>
     window.MathJax = {
@@ -77,9 +79,9 @@
     .button {
       display: inline-flex;
       align-items: center;
-      gap: 7px;
+      gap: 10px;
       margin: 6px;
-      padding: 9px 18px;
+      padding: 10px 22px;
       border-radius: 999px;
       background: #2d2d2d;
       color: #ffffff;
@@ -87,6 +89,11 @@
       font-weight: 600;
       font-size: 16px;
       transition: 0.18s ease;
+    }
+
+    .button i {
+      font-size: 18px;
+      line-height: 1;
     }
 
     .button:hover {
@@ -118,17 +125,6 @@
     .content p {
       margin-top: 0;
       margin-bottom: 16px;
-    }
-
-    .notice {
-      max-width: 850px;
-      margin: 0 auto;
-      padding: 22px 26px;
-      border-radius: 12px;
-      background: #f6f6f6;
-      color: #444;
-      font-size: 18px;
-      text-align: center;
     }
 
     .method-image {
@@ -247,8 +243,15 @@
     </div>
 
     <div class="buttons">
-      <a class="button" href="#">📄 Paper Coming Soon</a>
-      <a class="button" href="https://github.com/Zhiyuan624/HERA">💻 Code Coming Soon</a>
+      <a class="button" href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-arxiv"></i>
+        <span>Paper</span>
+      </a>
+
+      <a class="button" href="https://github.com/Zhiyuan624/HERA-CDFSS" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+        <span>Code</span>
+      </a>
     </div>
 
   </div>
@@ -306,14 +309,6 @@
       $\ell_{\mathrm{img}}$, which are fused with the base logit in a select–regularize–calibrate
       hierarchy. Here, $\mathcal{L}$, $\mathcal{U}$, and $\mathcal{H}$ denote the numbers of layers,
       fusion candidates, and attention heads, respectively.
-    </div>
-  </section>
-
-  <section>
-    <h2>Code Release</h2>
-    <div class="notice">
-      The official implementation will be released soon at
-      <a href="https://github.com/Zhiyuan624/HERA">https://github.com/Zhiyuan624/HERA</a>.
     </div>
   </section>
 

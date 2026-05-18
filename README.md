@@ -1,4 +1,4 @@
-# HERE-CDFSS
+# HERA-CDFSS
 
 This is the official repository for our CVPR 2026 paper:
 

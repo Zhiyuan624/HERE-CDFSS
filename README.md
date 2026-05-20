@@ -6,6 +6,6 @@ Official implementation of our CVPR 2026 paper:
 
 Project page: https://zhiyuan624.github.io/HERA-CDFSS/
 
-Paper: Coming soon
+Paper: https://arxiv.org/abs/2605.19340
 
 Code: https://github.com/Zhiyuan624/HERA-CDFSS
